@@ -53,5 +53,4 @@ mike.friendsList = ["Ronny", "Bobby", "Ricky"]
 mike.moviesList = ["Avengers", "Shrek", "Inception"]
 movieCounter = {"Avengers": 1, "Shrek": 3, "Inception": 5}
 
-
 module.export = Person;
