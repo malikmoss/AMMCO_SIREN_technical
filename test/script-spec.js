@@ -1,7 +1,7 @@
 const assert = require("assert");
-const { DESCRIBE } = require("sequelize/types/lib/query-types");
+// const { DESCRIBE } = require("sequelize/types/lib/query-types");
 // this is a relative path to the function's location
-const script = require("../script.js");
+const script = require("../problem/script.js");
 
 describe("grabMovies()", function() {
     it('should return  the favorite movie of a person, their friends, and friends of their friends', function (){

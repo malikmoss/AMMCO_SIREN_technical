@@ -29,9 +29,9 @@ function grabMovies (friendsList) {
     if(!(movie in movieCounter)) {
 	  movieCounter[movie] = 1
 
-} else {
-	movieCounter[movie]++
-} 
+    } else {
+	  movieCounter[movie]++
+    } 
 
 for (const movie in movieCounter) {
 	let max = 0
@@ -44,3 +44,5 @@ for (const movie in movieCounter) {
 }
   return bestMovie
 }}
+
+module.export = person;
